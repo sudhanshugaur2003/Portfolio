@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio Website</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main>
+            <nav class='navBar'>
+            
+                <h1>Sudhanshu Gaur Portfolio</h1>
+                <div class='navigationMenu'>
+                    <a href='#AboutMe'>About Me</a>
+                    <a href='#Skills'>Skills</a>
+                    <a href='#Projects'>Project</a>
+                    <a href='#ConnectForm'>Let's Connect!</a>
+                </div>
+            </nav>
+            <section class='heroSection'>
+                <img class='profileImage' src='/images/IMG_20230310_232438.jpg'>
+                <div class='herosectionDetails'> 
+                    <h1>Sudhanshu Gaur</h1>
+                    <h3>Front End Developer</h3>
+                </div>
+            </section>
+            <section class='AboutMe' id='AboutMe'>
+                <h1>What I Do...</h1>
+                <p>
+                    My name is Sudhanshu Gaur and currently I am pursuing Bachelor Of technology from Arya College Of Engineering & Information Technologgy with an aggregate of 92.8%. I have done my schooling from Rajendra Lohia Vidya Mandir. I am a front end developer having a knowledge of HTML, CSS3 and React. I am a fresher doing an internship at BHARAT INTERN using Frot End(HTML, CSS and JavaScript). I also have a firm knowledge of C and C++ programming. I am good on Object Oriented Programming(OOPs) concepts. I also made a project of Banking management system in C++. As a budding software engineer, I aim to apply my coding skills and passion for innovation to contribute effectively, learn collaboratively and create impactfull software solutions. I like to read manhwas and recently i have develop a kind of hobby to write my own story. I already write 5 chapters of my novel. My short term goal is to write my own manhwa and my long term goal is to become an successfull engineer.
+                </p>
+            </section>
+            <section class='SkillsAndProjects'>
+                <div class='Skills' id='Skills'>
+                    <h1 class='cardHeading'>Skills</h1>
+                    <img src='/images/html.png' title='Hyper Text MarkUp Language'>
+                    <img src='/images/css.png' title='Cascade Style Sheet'>
+                    <img src='/images/JavaScript.png' title='JavaScript'>
+                    <img src='/images/react.png' title='React'>
+                    <img src='/images/datastructures.png' title='Nodejs'>
+                    <img src='/images/mysql.png' title='MySQL'>
+                    
+                </div>
+                <div class='Projects' id='Projects'>
+                    <h1 class='cardHeading'>Project</h1>
+                    <div class="projectcontainer">
+                        <img src='/images/css.png'>
+                        <div class=" projectDescription">
+                            <h4>Banking Management System</h4>
+                            <p>
+                                My project is made by using the basic concepts of C++ programming named as Banking Management System. It tells the basic activities happening in the bank. As a fresher, my project is a Banking Management System, a software application i developed. It focuses on automating and showing banking processes. It includes festures like customer account management, secure transactions, and reporting.
+                                This project showcases my programming skills and eagerness to learn and contribute in the field of software development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class ='ContactForm' id ='ContactForm'>
+                <h1>Let's Connect!</h1>
+                <div class='FormGroup'>
+                    <label for= 'name'>Enter Full Name </label><br/>
+                    <input type = 'text' id ='name' placeholder ='Full Name'/>
+                </div><br/>
+                <div class='FormGroup'>
+                    <label for= 'Email'>Email</label><br/>
+                    <input type = 'text' id ='Email' placeholder ='Email'/>
+                </div><br/>
+                <div class='FormGroup'>
+                    <label for= 'message'>Message </label><br/>
+                    <textarea placeholder ='Send from message!' id='message' name ='w3review' rows ='4' cols ='60'></textarea><br/>
+                </div><br/>
+                <button class= 'SubmitButton' onclick ={submit()}>Connect</button>
+            </section>
+        </main>
+
+    </body>
+</html>
